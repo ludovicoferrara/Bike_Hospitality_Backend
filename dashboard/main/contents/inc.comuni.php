@@ -300,7 +300,7 @@ Visualizza <input type="text" name="nxpage" value="<?=$nxpage?>" class="lite min
     include "paginazione.php"; 
    ?>	
    <div class="spessore" style="height:60px"></div>
-       </div>
+    </div>
      
 <? 
 my_statevar_create("ord$_postfix",$ord);

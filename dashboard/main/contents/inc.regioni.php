@@ -138,4 +138,20 @@ function setOrd(strord){
         <?php endif; ?>
     </tbody>
         </table>
+        <input type="hidden" name="MSID" value="<?=$MSID?>" />
+        <input type="hidden" name="sezione" value="<?=$sezione?>" />
+        <input type="hidden" name="azione" value="" />
+        <input type="hidden" name="id" value="" />
+        
+        <input type="hidden" name="tab" value="<?=$tab?>" />
+        <input type="hidden" name="tab2" value="<?=$tab2?>" />  
+        
+        <input type="hidden" name="ord" value="<?=$ord?>" />
 </form>
+
+
+<? 
+my_statevar_create("ord$_postfix",$ord);
+my_statevar_create("searchstr$_postfix",$searchstr);
+my_statevar_create("nxpage$_postfix",$nxpage);
+?>
