@@ -1,0 +1,13 @@
+#right2{
+   background-color: #FFFFFF;
+}
+.boxaccount {
+    width: auto;
+    height: auto;
+    background-color: #eaeaea;
+    padding: 14px;
+}
+.inverso
+{
+    filter:invert(1);
+}

@@ -1,0 +1,1 @@
+<?include $extincpath_hdd."_inc/function.php";?>

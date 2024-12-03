@@ -1,0 +1,130 @@
+
+ .testo,  .testo_err, .testo_evi
+	{
+	font-size: 14px;
+	font-style: normal;
+	color: #666666;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 165%;
+	font-weight: normal;
+	}
+.testo2
+	{
+	font-size: 16px;
+	font-style: normal;
+	color: #666666;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+	font-weight: normal;
+	}
+.testofoo {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		color: #333333;
+}
+	.titolofoo {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		color: #ffffff;
+		
+	}
+	
+	.testo_err,  .err {
+		
+		color:  #EA8B49 ;
+	} 
+ 	
+.testo_evi {
+		
+		color: #224C8C;
+} 
+  
+	
+.testosm	{
+	font-size: 12px;
+	font-style: normal;
+	color: #858585;
+	text-decoration: none;
+	font-family:  Arial, Helvetica, sans-serif;
+	 line-height: 110%;
+}
+	
+	.testosmscuro	{
+	font-size: 11px;
+	font-style: normal;
+	color: #3E3E3E;
+	text-decoration: none;
+	font-family:  Arial, Helvetica, sans-serif;
+	 line-height: 110%;
+	}
+	
+	h1 {
+		color: #444444;
+	}
+	
+.titolo ,.titolo_evi, .titolo_w, .titolo_err
+	{
+	
+	color: #224C8C;
+	font-family:  'Open sans',  sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+	
+	}
+.titolo_err {
+		
+		color:  #EA8B49 ;
+	} 	
+	
+.titolo_xbig, .titolo_big, .titolo_big_evi
+	{
+	line-height: 160%;
+	color: #224C8C;
+	font-family:  'Open sans', sans-serif;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: normal;
+	
+	}
+        .titolo_xbig{
+        font-size: 34px;
+        }
+	
+.titolo_big_evi
+	{
+ 
+		color:#B31D38;
+		
+	}
+.titolo_evi
+	{
+		color:#3D8582;
+		font-size: 24px;
+	
+	}
+	
+.titolo_w
+	{
+
+		color:#ddddff;
+		font-size: 24px;
+		
+	}
+	
+.subtitolo {
+		font-size:22px
+	}
+
+
+.boxtitolotesto, .megathxtitolo, .titolo_scheda {
+	
+		 line-height: 100%;
+	}
+	
+.nodec {
+	text-decoration: none;
+        font-style:  normal;
+	}

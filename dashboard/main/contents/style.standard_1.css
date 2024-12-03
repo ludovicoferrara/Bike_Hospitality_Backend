@@ -1,0 +1,175 @@
+.testo,  .testo_err, .testo_evi, testob
+{
+    font-size: 14px;
+    font-style: normal;
+    color: #333333;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    line-height: 165%;
+    font-weight: normal;
+}
+
+.testo_err,  .err {
+
+    color:  #EA8B49 ;
+}
+
+.testo_evi {
+
+    color: #224C8C;
+}
+.testob{
+    font-weight: bold !important;
+}
+
+.testosm	{
+    font-size: 12px;
+    font-style: normal;
+    color: #858585;
+    text-decoration: none;
+    font-family:  Arial, Helvetica, sans-serif;
+    line-height: 110%;
+}
+
+
+h1 {
+    color: #444444;
+}
+
+.titolo , .titolo_err
+{
+
+    color: #224C8C;
+    font-family:  'Open sans',  sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+
+}
+.titolo_err {
+
+    color:  #EA8B49 ;
+}
+
+.titolo_evi
+{
+    line-height: 140%;
+    font-family:  'Open sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.titolo_big
+{
+    line-height: 160%;
+    color: #224C8C;
+    font-family:  'Open sans', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.titolo_evi, .evi
+{
+    color:#B31D38;
+}
+
+/* -------------------- menu ---------------- */
+
+.menuleft_standard
+{
+    width:200px;
+}
+
+#menuleft
+{
+    background-color: #224C8C;
+}
+
+ul.menu5
+{
+    margin-top: 10px;
+}
+
+ul.menu5 li{
+
+    margin: auto;
+    padding: 0;
+    height: 34px;
+    color: white;
+    text-align: left;
+    width:100%;
+    cursor:pointer;
+}
+
+ul.menu5 li a {
+
+    color: #ffffff;
+    font-family:  'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    height:48px;
+
+}
+
+ul.menu5 li.menu5off:hover, ul.menu5 li.menu5on{
+    color: #ddddff;
+    background-color: #92B3E4;
+}
+
+ul.menu5 li div {
+
+    padding-top: 6px;
+    padding-left: 36px;
+
+}
+
+ul.menu5 li {
+
+    background-repeat:  no-repeat;
+    background-position-x: 10px;
+    background-position-y: 10px;
+    background-size: 16px;
+
+}
+
+ul.menu5 li.logout {
+
+    background-image: url(icone/logout.png);
+
+}
+
+
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+
+@media screen  and (max-width: 560px) {
+
+    #img_logow, #foomini, .labelmenu
+    {
+        display:none;
+    }
+    ul.menu5 li
+    {
+        background-size: 24px;
+        background-position-x: 14px;
+        height:46px;
+    }
+
+}
+
+@media screen  and (max-width: 560px) {
+
+    #right2 {
+        width:auto;
+        left:50px;
+    }
+    #menuleft
+    {
+        width:50px
+    }
+
+}
